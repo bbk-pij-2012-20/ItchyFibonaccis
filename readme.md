@@ -5,6 +5,7 @@ Starts either with 0 or 1.
 The Fibonacci Series used here always starts with 1.
 
 The nth number in the series is one-based shown here above Fibonacci numbers (fib)
+
 |  n |  1 | 2  | 3  |4   |5   |6   |7   |8   |9   |10   |11   |12   |13   |etc  |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |  fib | 1  | 1  | 2  | 3  | 5  | 8  | 13  | 21  | 34  | 55  | 89  | 144  | 233  | etc  |
