@@ -6,7 +6,7 @@ The Fibonacci Series used here always starts with 1.
 
 The nth number in the series is one-based shown here above Fibonacci numbers (fib)
 
-|   |   |   |   |   |
+|  n |   |   |   |   |
 |---|---|---|---|---|
 |   |   |   |   |   |
 |   |   |   |   |   |
