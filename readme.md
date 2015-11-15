@@ -8,12 +8,10 @@ The nth number in the series is one-based shown here above Fibonacci numbers (fi
 
 |  n |   |   |   |   |
 |---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|  fib |   |   |   |   |
 
   n:      1 2 3 4 5 6  7  8  9 10 11  12  13 </br>
-  fib:  1 1 2 3 5 8 13 21 34 55 89 144 233
+  :  1 1 2 3 5 8 13 21 34 55 89 144 233
 
 My aim is to compare the conciseness versus speed of computation for iteration and recursion to calculate the nth Fibonacci number, using Java 7.
 
