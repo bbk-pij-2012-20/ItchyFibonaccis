@@ -14,6 +14,8 @@ public class Fib_PSVM {
     String method1 = "iteration";
     String method2 = "recursion";
     String method3 = "iteration with a Java arrayList";
+
+    System.out.println();
     int position = 40;
     final long startTime1 = System.nanoTime();
     long fibonacciNumber = Fib_Iteration.getFibonacciNumberAt(position);
@@ -30,6 +32,7 @@ public class Fib_PSVM {
     final long endTime3 = System.nanoTime();
     printOut(position, fibonacciNumber, endTime3 - startTime3, method3);
 
+    System.out.println();
     position = 45;
     final long startTime4 = System.nanoTime();
     fibonacciNumber = Fib_Iteration.getFibonacciNumberAt(position);
@@ -46,6 +49,7 @@ public class Fib_PSVM {
     final long endTime6 = System.nanoTime();
     printOut(position, fibonacciNumber, endTime6 - startTime6, method3);
 
+    System.out.println();
     position = 50;
     final long startTime7 = System.nanoTime();
     fibonacciNumber = Fib_Iteration.getFibonacciNumberAt(position);

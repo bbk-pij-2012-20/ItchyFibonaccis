@@ -11,7 +11,7 @@ public class Fib_IterateArrayList {
   public static long getFibonacciNumberAt(int n) {
 
     List<Long> fibonacciList = new ArrayList<>();
-    fibonacciList.set(0,1L);
+    fibonacciList.add(0,1L);
 
     try {
 
@@ -21,11 +21,11 @@ public class Fib_IterateArrayList {
 
       } else if (n > 2) {
 
-        fibonacciList.set(1,1L);
+        fibonacciList.add(1,1L);
 
         for (int i = 2; i < n; i++) {
 
-          fibonacciList.set(i, fibonacciList.get(i - 1) + fibonacciList.get(i - 2));
+          fibonacciList.add(i, fibonacciList.get(i - 1) + fibonacciList.get(i - 2));
 
         }
 
