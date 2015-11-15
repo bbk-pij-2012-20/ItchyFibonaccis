@@ -14,7 +14,7 @@ My aim is to compare conciseness and speed of computation for iteration and for 
 
 The task of the computation is to calculate the nth Fibonacci number given the value n.
 
-This is done using Java 1.7.
+The code is written using Java 1.7.
 
 Iteration:
 -
