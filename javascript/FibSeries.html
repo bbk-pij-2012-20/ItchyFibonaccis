@@ -1,0 +1,22 @@
+<script>
+
+  document.write("<h2>Table of Fibonacci numbers</h2>");
+
+//var start = new Date().getTime();
+  var start = performance.now();
+
+  for (i = 0, fib_1 = 1, fib_2 = 0, fib = 0; i < 50; i++,
+              fib = fib_1 + fib_2, fib_1 = fib_2, fib_2 = fib) {
+
+    document.write(i + "th Fibonacci number = " + fib);
+    document.write("<br>");
+
+  }
+
+//var end = new Date().getTime();
+  var end = performance.now();
+  var timeTaken = end - start;
+
+  alert('execution time = ' + timeTaken * 1000 + "microseconds");
+
+</script>
