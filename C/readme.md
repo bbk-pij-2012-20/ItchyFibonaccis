@@ -1,8 +1,8 @@
 Fibonacci Series written in C
 --
 To run the code in Mac OS X:
-file that was written in text editor is given extension c.
 <ul>
+<li>code written in text editor should be save with c file extension</li>
 
 <li>enter gcc into terminal and enter c file with full pathname</li>
 
