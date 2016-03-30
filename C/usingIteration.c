@@ -1,26 +1,30 @@
 #include<stdio.h>
 
-int main()
-{
-   int n, first = 0, second = 1, next, c;
+int main() {
 
-   printf("Enter the number of terms\n");
-   scanf("%d",&n);
+  int n, fib_2 = 0, fib_1 = 1, fib, i;
+  printf("Enter the number of Fibonacci numbers you want\n");
+  scanf("%d",&n);
+  printf("fib_2 %d numbers from start of Fibonacci series are :-\n",n);
 
-   printf("First %d terms of Fibonacci series are :-\n",n);
+  for (i = 0 ;i < n ;i++) {
 
-   for ( c = 0 ; c < n ; c++ )
-   {
-      if ( c <= 1 )
-         next = c;
-      else
-      {
-         next = first + second;
-         first = second;
-         second = next;
-      }
-      printf("%d\n",next);
-   }
+    if (i <= 1) {
 
-   return 0;
+      fib = i;
+
+    } else {
+
+      fib = fib_2 + fib_1;
+      fib_2 = fib_1;
+      fib_1 = fib;
+
+    }
+
+    printf("%d\n",fib);
+
+  }
+
+  return 0;
+
 }
