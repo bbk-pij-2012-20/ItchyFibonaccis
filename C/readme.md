@@ -14,4 +14,5 @@ To run the code in Mac OS X:
 
 <li>this will run the program.</li>
 
+note: the #include<stdio.h> is a pre-processor command to paste the implementation code for the function printf() into this file.
 </ul>
